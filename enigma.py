@@ -1,13 +1,7 @@
-"""import tkinter
-# variabelen-----------
-rotor = ('I', 'II', 'III', 'IV', 'V')
-ringSetPut = np.array(input('ringsettings, 3 letters:\n'), dtype=np.str)
-ringSet = np.char.join(" ", ringSetPut)
+import numpy as np
 
-#ringpos = input(),input(),input()
-#plugboard = int(input('hoeveel plugboard dingen wil je: \n'))
-#git moet wel bijgehouden worden
-
-print(ringSet)"""
-
-print("git setup test")
+# variabelen---------------
+rotors = ("I","II","III","IV", "V")
+plug = "AT BS DE FM IR KN LZ OW PV XY"
+ringSet = "ABC"
+ringPos = "DEF"
