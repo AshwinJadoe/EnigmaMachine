@@ -5,3 +5,6 @@ rotors = ("I","II","III","IV", "V")
 plug = "AT BS DE FM IR KN LZ OW PV XY"
 ringSet = "ABC"
 ringPos = "DEF"
+
+def crypt(text):
+  global rotors, plug, ringSet, ringPos
